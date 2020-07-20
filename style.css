@@ -48,10 +48,6 @@ html{
     color: #5274AB !important;
 }
 
-.navbar-light .navbar-toggler-icon{
-    background-image: url('images/menu.png');
-    
-}
 .main_header{
     margin-top: 150px;
 }
