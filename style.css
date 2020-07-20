@@ -9,6 +9,11 @@ html{
     scroll-behavior: smooth;
     
 }
+.navbar.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  
 .nav_style{
     background-color: #fff;
     box-shadow: 0 10px 30px rgba(138,155,165,0.15);
@@ -43,6 +48,13 @@ html{
     color: #5274AB !important;
 }
 
+.navbar-light .navbar-toggler-icon{
+    background-image: url('images/menu.svg');
+    
+}
+.main_header{
+    margin-top: 150px;
+}
 .header_text{
     margin: 50px 0px;
 
@@ -69,6 +81,7 @@ html{
 .first{
     background-color: #5274AB;
     transition: all 0.3s linear; 
+    color:white;
 }
 .second{
     background-color:transparent;
@@ -195,7 +208,7 @@ html{
 }
 #first-card{
     width: 90%;
-    height: 425px;
+    height: 400px;
 	margin: 30px 0;
 	display: flex;
 	justify-content: center;
@@ -288,7 +301,11 @@ html{
 .socialsites_links .fa-youtube-play:hover{
     color: red;
 }
-
+.social_link{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
 footer{
     background-color: #5274AB;
     color: white;
@@ -312,6 +329,33 @@ footer p{
 .contact_link:hover .fa{
     color:#5274AB;
 }
+.link_text{
+    text-decoration: none;
+    color: black;
+}
+.link_text:hover{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */ 
+    background-color: #5274AB;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px;
+    border-radius: 50px; /* Increase font size */
+  }
+  
+
 
 
 
