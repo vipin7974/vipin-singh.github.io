@@ -11,7 +11,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Vipin Singh</title>
 
 </head>
@@ -41,6 +41,16 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#services_id">Service</a>
                                 </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Projects
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="web-development.html">Web Design</a>
+                                      <a class="dropdown-item" href="ui.html">UI/UX</a>
+                                      <a class="dropdown-item" href="python.html">Python</a>
+                                    </div>
+                                  </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#contact_id">Contact</a>
                                 </li>
@@ -240,8 +250,17 @@
                 <h1>I'm avaliable for freelance projects.</h1>
                 <p>When you need something innovative,creative and moderate design.</p>
                 <h3>let's create somthing extraodinary with you.</h3>
-                <button class="btn button first"><i class="fa fa-check" aria-hidden="true"></i> Hire
-                    Me!</button>
+                <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn first dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Projects
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                      <a class="dropdown-item" href="web-development.html">Web Design</a>
+                      <a class="dropdown-item" href="ui.html">UI/Ux</a>
+                      <a class="dropdown-item" href="python.html">Python</a>
+                    </div>
+                  </div>
+                
             </div>
         </div>
     </div>
@@ -338,7 +357,7 @@
                             class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-lg-1 col-2 socialsites_links">
-                    <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+                    <a href="https://www.youtube.com/channel/UCFCQTSPA7gb2r5xmZRQE3_Q" class="social_link"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>

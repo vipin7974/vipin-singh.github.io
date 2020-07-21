@@ -1,0 +1,109 @@
+
+body{
+	margin:0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+.main .first{
+	background: #7DCEA0;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	margin-top:100px;
+	margin-bottom:100px;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 10px 10px 50px black;
+}
+.card-title{
+	font-family: 'Lato', sans-serif;
+}
+.card img{
+	transition: all 1s linear;
+}
+.card img:hover{
+	transform: scale(1.2);
+
+}
+
+.btn{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	margin: 10px 20px;
+	color: white;
+	font-weight: 500;
+}
+.button1{
+	background: #7DCEA0;
+}
+.button2{
+	background: #E74C3C;
+}
+.button1:hover{
+	border: 2px solid #7DCEA0;
+	background: transparent;
+	color: black;
+}
+.button2:hover{
+	border: 2px solid #E74C3C;
+	background: transparent;
+	color: black;
+}
+.main .second{
+	background: #876AC5;
+	padding: 20px 0;
+}
+.button3{
+	background:#876AC5;
+}
+.button3:hover{
+	border: 2px solid #876AC5;
+	background: transparent;
+	color: black;
+}
+.main .third{
+	background: #F4D03F;
+	padding: 20px 0;
+}
+.button4{
+	background:#F4D03F;
+}
+.button4:hover{
+	border: 2px solid #F4D03F;
+	background: transparent;
+	color: black;
+}
+
+.main .firstp{
+	background: #1A5276;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 100px;
+}
+.f-c{
+	margin-top:100px;
+	margin-bottom:100px;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 10px 10px 50px black;
+}
+.buttonp1{
+	background: #1A5276;
+}
+.buttonp1:hover{
+	border: 2px solid #1A5276;
+	background: transparent;
+	color: black;
+}
+
+

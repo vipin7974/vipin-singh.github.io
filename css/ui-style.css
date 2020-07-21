@@ -1,0 +1,92 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+.main .first{
+	background: #F1C40F;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card{
+	margin-top:100px;
+	margin-bottom:100px;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 10px 10px 50px black;
+}
+.card-title{
+	font-family: 'Lato', sans-serif;
+}
+.card img{
+	transition: all 1s linear;
+}
+.card img:hover{
+	transform: scale(1.2);
+
+}
+.btn{
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	margin: 10px 20px;
+	color: white;
+	font-weight: 500;
+}
+.button1{
+	background: #F1C40F;
+}
+.button2{
+	background: #E74C3C;
+}
+.button1:hover{
+	border: 2px solid #F1C40F;
+	background: transparent;
+	color: black;
+}
+.button2:hover{
+	border: 2px solid #E74C3C;
+	background: transparent;
+	color: black;
+}
+.main .second
+{
+	background: #8E44AD;
+	padding: 50px 0;
+}
+.button3{
+	background: #8E44AD;
+}
+.button3:hover{
+	border: 2px solid #8E44AD;
+	background: transparent;
+	color: black;
+}
+.third
+{
+	background:  #2874A6 
+;
+	margin-top: 550px;
+	padding: 50px 0; 
+}
+.button4{
+	background:  #2874A6;
+}
+.button4:hover{
+	border: 2px solid  #2874A6;
+	background: transparent;
+	color: black;
+}
+@media only screen and (max-width: 768px){
+	.third
+{
+	margin-top: 0px;
+
+}
