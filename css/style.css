@@ -207,7 +207,7 @@ html{
 	margin-top:50px;
 }
 #first-card{
-    width: 80%;
+    width: 90%;
     height: 400px;
 	margin: 30px 0;
 	display: flex;
@@ -389,6 +389,10 @@ footer p{
     }
     .contact_link{
         margin-bottom: 30px;
+    }
+    
+    .card-body .card-title{
+        font-size: 25px;
     }
 
 }
