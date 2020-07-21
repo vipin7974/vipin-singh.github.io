@@ -48,9 +48,7 @@ html{
     color: #5274AB !important;
 }
 
-.navbar-light .navbar-toggler-icon{
-    background-image: url('images/menu.png');  
-}
+
 .navbar-light .navbar-toggler{
     border:none;
 }
