@@ -251,7 +251,7 @@ html{
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('./images/computer-2838920_1920.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/hireme.jpg');
     background-attachment: fixed;
     background-size: 100% 100%;
 }

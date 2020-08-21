@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Vipin Singh</title>
+    <script type="text/javascript">var submitted=false;</script>
+    
+    <!--Update the URL for thank you page on form submit -->
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+    onload="if(submitted){window.location.href = '/';}"></iframe>
 
 </head>
 
@@ -243,7 +248,12 @@
 
     <!--Hire me sec-->
 
-    <div class="container-fluid hireme_section">
+    <div class="container-fluid hireme_section" style=" padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/hireme.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;">
         <div class="row">
             <div class="col-11 col-md-10 mx-auto">
                 <h1>I'm avaliable for freelance projects.</h1>
@@ -280,23 +290,23 @@
                         </figure>
                     </div>
                     <div class="col-md-6 col-10 contact_inner">
-                        <form action="mailto:viprock234@gmail.com" method="post" target="_top" enctype="text/plain">
+                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScfMzEkEc0KVHjCXCzpgLwoJHVn25XuS963ly2IGo-_30fzNg/formResponse"  target="_top" enctype="text/plain" id=myForm>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="exampleFormControlInput1" required
-                                    autocomplete="off" name="name" placeholder="Type your name">
+                                    autocomplete="off" name="entry.754438959" placeholder="Type your name" for="Name">
                             </div>
                             <div class="form-group">
                                 <input type="number" class="form-control" id="exampleFormControlInput1" required
-                                    autocomplete="off" name="mobile" placeholder="Type your mobile">
+                                    autocomplete="off" name="entry.402005876" placeholder="Type your mobile" for="Mobile">
                             </div>
                             <div class="form-group">
                                 <input type="email" class="form-control" id="exampleFormControlInput1" required
-                                    autocomplete="off" name="email" placeholder="Type your email">
+                                    autocomplete="off" name="entry.705498912" placeholder="Type your email" for="Email">
                             </div>
 
                             <div class="form-group">
-                                <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
-                                    placeholder="Type your message"></textarea>
+                                <textarea class="form-control" name="entry.136007448" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Type your message" for="Message"></textarea>
                             </div>
                             <div class="text-center">
                                 <button class="btn button first" type="submit" value="send"><i class="fa fa-check"
