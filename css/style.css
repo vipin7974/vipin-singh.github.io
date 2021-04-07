@@ -5,6 +5,20 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+.check {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 20px;
+  cursor: pointer;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -102,6 +116,7 @@ html {
 
 .about_section {
   padding-top: 50px;
+  background-color: #f8f9fa;
 }
 .main_title {
   font-weight: 400;
@@ -123,7 +138,9 @@ html {
   font-size: 24px;
   margin-top: 20px;
 }
-
+#services_id {
+  background-color: #f8f9fa;
+}
 .expertise_section {
   padding-top: 50px;
 }
@@ -266,6 +283,7 @@ html {
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
+  background-color: #f8f9fa;
 }
 .contact_img {
   position: absolute;
@@ -387,5 +405,38 @@ footer p {
 
   .card-body .card-title {
     font-size: 25px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #343a40;
+  }
+  .about_section {
+    background-color: #343a40;
+  }
+  .main_title {
+    color: white;
+  }
+  .about_text {
+    color: white;
+  }
+  .about_text h1 {
+    color: white;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+  .navbar.scrolled {
+    background-color: #343a40 !important;
+  }
+  #services_id {
+    background-color: #343a40;
+  }
+  .expertise_section {
+    color: white;
+  }
+  .contact_section {
+    background-color: #343a40;
   }
 }

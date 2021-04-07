@@ -104,3 +104,8 @@ body{
 	margin-top: 0px;
 
 }
+@media (prefers-color-scheme: dark){
+	body{
+		background-color: #222831 !important;
+	}
+}
