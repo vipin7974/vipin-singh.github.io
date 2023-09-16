@@ -157,22 +157,22 @@ html {
 }
 
 .expertise_section .pb_1 {
-  width: 93%;
+  width: 100%;
   background-color: #cf1b1b;
   border-radius: 7px;
 }
 .expertise_section .pb_2 {
-  width: 30%;
+  width: 60%;
   background-color: #ffa931;
   border-radius: 7px;
 }
 .expertise_section .pb_3 {
-  width: 40%;
+  width: 100%;
   background-color: #1d8348;
   border-radius: 7px;
 }
 .expertise_section .pb_4 {
-  width: 25%;
+  width: 60%;
   background-color: #21618c;
   border-radius: 7px;
 }
@@ -180,7 +180,7 @@ html {
   position: relative;
 }
 .expertise_h1::after {
-  content: "93%";
+  content: "100%";
   position: absolute;
   top: 10px;
   right: 13%;
@@ -188,7 +188,7 @@ html {
   font-size: 1em;
 }
 .expertise_h2::after {
-  content: "30%";
+  content: "60%";
   position: absolute;
   top: 10px;
   right: 13%;
@@ -196,7 +196,7 @@ html {
   font-size: 1em;
 }
 .expertise_h3::after {
-  content: "20%";
+  content: "100%";
   position: absolute;
   top: 10px;
   right: 13%;
@@ -204,7 +204,7 @@ html {
   font-size: 1em;
 }
 .expertise_h4::after {
-  content: "25%";
+  content: "60%";
   position: absolute;
   top: 10px;
   right: 13%;
